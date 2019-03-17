@@ -4,15 +4,13 @@
 #
 Name     : R-seqinr
 Version  : 3.4.5
-Release  : 7
+Release  : 8
 URL      : https://cran.r-project.org/src/contrib/seqinr_3.4-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/seqinr_3.4-5.tar.gz
 Summary  : Biological Sequences Retrieval and Analysis
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-seqinr-lib = %{version}-%{release}
-Requires: R-ade4
-Requires: R-segmented
 BuildRequires : R-ade4
 BuildRequires : R-segmented
 BuildRequires : buildreq-R
@@ -40,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552847058
+export SOURCE_DATE_EPOCH=1552855063
 
 %install
-export SOURCE_DATE_EPOCH=1552847058
+export SOURCE_DATE_EPOCH=1552855063
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
