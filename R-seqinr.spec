@@ -4,7 +4,7 @@
 #
 Name     : R-seqinr
 Version  : 3.4.5
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/seqinr_3.4-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/seqinr_3.4-5.tar.gz
 Summary  : Biological Sequences Retrieval and Analysis
